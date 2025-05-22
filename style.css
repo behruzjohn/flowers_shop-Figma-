@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: Cera Pro;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 12px;
+}
+body span {
+  color: #46a358;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+.headerText img {
+  width: 180px;
+  height: 50px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+  padding: 30px 30px;
+  margin: 0;
+}
+
+ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.greenLine {
+  width: 50px;
+  height: 5px;
+  background-color: green;
+  border-radius: 0;
+  border: 2px solid green;
+}
+
+.loginForm img {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.MainMenu {
+  padding: 50px 50px;
+  width: 1900px;
+  height: 450px;
+  background-color: #f5f5f580;
+  margin-left: 580px;
+  margin-top: 40px;
+}
+.MainMenu .smallIcons {
+  margin-top: -80px;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+  width: 1900px;
+  height: 500px;
+  /* background-color: red; */
+}
+.smallIcons div {
+  width: 20px;
+  height: 20px;
+  background-color: #46a3584d;
+  border-radius: 50%;
+}
+.smallIcons #greenDiv {
+  background-color: #46a358;
+}
+.MainMenu span {
+  color: green;
+}
+.MainMenu h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: Cera Pro;
+}
+.MainMenu #firsH1 {
+  font-weight: 500;
+}
+.MainMenu #secondH1 {
+  font-weight: bold;
+  font-size: 80px;
+}
+.MainMenuImg {
+  margin-left: 1100px;
+  margin-top: -420px;
+}
+.MainMenuImg img {
+  height: 600px;
+}
+.MainMenu #btn {
+  width: 140px;
+  height: 45px;
+  border-color: #46a358;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: #46a358;
+}
+
+.Catagories {
+  margin-left: 580px;
+  margin-top: 60px;
+  display: block;
+  width: 450px;
+  height: 1900px;
+  background-color: #f5f5f580;
+}
+.Catagories h1 {
+  padding: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.Catagories ul li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0 0 60px;
+}
+.value {
+  margin-top: -750px;
+}
+.Catagories .value ul li {
+  display: flex;
+  margin-left: 350px;
+  text-decoration: none;
+  list-style: none;
+}
+.Catagories span {
+  color: green;
+}
+.value input {
+  border-color: #46a358;
+  width: 350px;
+}
+.CatagoriesInputs {
+  margin-top: -60px;
+}
+.CatagoriesInputs button {
+  width: 150px;
+  height: 45px;
+  background-color: #46a358;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #46a358;
+}
+.SizezValue {
+  margin-left: 350px;
+  margin-top: -250px;
+}
+.Sizes img {
+  width: 540px;
+  height: 500px;
+  margin-left: -40px;
+}
+.Menu {
+  width: 1200px;
+  margin-top: -1900px;
+  margin-left: 1300px;
+}
+.Menu div {
+  gap: 150px;
+}
+.MenuText ul {
+  text-decoration: none;
+  list-style: none;
+  gap: 100px;
+  display: flex;
+}
+.MenuText #list {
+  font-size: 20px;
+  display: flex;
+  margin-left: 230px;
+  border: 0;
+}
+.allFlowers {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .allFlowers {
+  width: auto;
+  height: 500px;
+  background-color: red;
+} */
+.CatagoriesDivs {
+  gap: 20px;
+  display: flex;
+  width: auto;
+  height: 100px;
+  margin-left: 2000px;
+  margin-top: 50px;
+}
+.CatagoriesDivs div {
+  width: 50px;
+  height: 50px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid #2d2c2c;
+  border-radius: 6px;
+}
+.CatagoriesDivs .divs {
+  background-color: #46a358;
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid #46a358;
+}
+
+footer {
+  background-color: #fbfbfb;
+  margin-left: 550px;
+  margin-top: 400px;
+  width: 2045px;
+  height: auto;
+}
+footer .footerWritter {
+  background-color: #46a35833;
+  height: 110px;
+  padding: 20px 20px;
+  width: 2000px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.footerWritter img {
+  width: 250px;
+  height: 80px;
+}
+
+.footerValue {
+  width: 2000px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerValue ul li {
+  text-decoration: none;
+  list-style: none;
+  margin: 20px 0px;
+  text-align: center;
+}
+.socialMEdia {
+  display: flex;
+  gap: 20px;
+  width: 30px;
+  height: 30px;
+}
+#lastH3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .MainMenu {
+    margin-left: 0px;
+    width: 500px;
+    margin-left: 20px;
+    height: auto;
+  }
+  .MainMenu #secondH1 {
+    font-size: 50px;
+  }
+  .MainMenuImg img {
+    display: none;
+  }
+  .smallIcons div {
+    display: none;
+    margin-left: 0;
+  }
+}
